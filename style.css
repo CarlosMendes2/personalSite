@@ -1,15 +1,51 @@
-body {
-    font-family: 'Roboto Mono', monospace;
-    min-height: 854px;
-    background-color: #ebebeb;
+body{
+    background: #FFA5A5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-image:url("https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGFlc3RoZXRpY3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
     background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-bottom: 20vh;
+    height: 80px;
+    border-radius: 5px;
 }
-#projectsLinks{
-    color: aqua;
+section{
+    -webkit-box-shadow: 16px 11px 50px -5px rgba(255,0,251,0.8); 
+    box-shadow: 16px 11px 50px -5px rgba(255, 146, 253, 0.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    background-color: oldlace;
+    padding: 15px;
+    border: 1px solid midnightblue;
+    border-radius: 10px;
 }
-a:visited{
-    color: black;
+section h1 {
+    font-size: 20px;
+}
+div{
+
+    border: 1px solid midnightblue;
+    background-color: #EBD4CB;
+    border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+    padding: 4px;
+    margin: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border: 8px solid oldlace;
 }
