@@ -1,16 +1,16 @@
 body{
-    background: #FFA5A5;
+    background: oldlace;
     font-family: 'Source Sans Pro', sans-serif;
 }
 header{
-    background-image:url("https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGFlc3RoZXRpY3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-image:url("https://.unsplash.com/photo-1517315003714-a071486bd9ea?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGFlc3RoZXRpY3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
     background-size: cover;
     height: 80px;
     border-radius: 5px;
 }
 section{
-    -webkit-box-shadow: 16px 11px 50px -5px rgba(255,0,251,0.8); 
-    box-shadow: 16px 11px 50px -5px rgba(255, 146, 253, 0.8);
+    -webkit-box-shadow: 16px 11px 50px -5px #FFA5A5; 
+    box-shadow: 16px 11px 50px -5px #FFA5A5;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +27,7 @@ section h1 {
 div{
 
     border: 1px solid midnightblue;
-    background-color: #EBD4CB;
+    background-color: #FFA5A5;
     border-radius: 5px;
 
 }
