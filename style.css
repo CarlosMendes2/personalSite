@@ -1,5 +1,5 @@
 body{
-    background: oldlace;
+    background: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
 header{
@@ -9,16 +9,16 @@ header{
     border-radius: 5px;
 }
 section{
-    -webkit-box-shadow: 16px 11px 50px -5px #FFA5A5; 
-    box-shadow: 16px 11px 50px -5px #FFA5A5;
+    -webkit-box-shadow: 16px 11px 50px -5px #a2a2a2; 
+    box-shadow: 16px 11px 50px -5px #a2a2a2;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
     margin-top: 100px;
-    background-color: oldlace;
+    background-color: white;
     padding: 15px;
-    border: 1px solid midnightblue;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
 section h1 {
@@ -26,7 +26,7 @@ section h1 {
 }
 div{
 
-    border: 1px solid midnightblue;
+    border: 1px solid rgb(255, 255, 255);
     background-color: #FFA5A5;
     border-radius: 5px;
 
@@ -47,5 +47,5 @@ img{
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-50%);
-    border: 8px solid oldlace;
+    border: 8px solid white;
 }
