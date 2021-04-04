@@ -1,12 +1,11 @@
 body{
     background: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 header{
-    background-image:url("https://.unsplash.com/photo-1517315003714-a071486bd9ea?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGFlc3RoZXRpY3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
-    background-size: cover;
     height: 80px;
     border-radius: 5px;
+    
 }
 section{
     -webkit-box-shadow: 16px 11px 50px -5px #a2a2a2; 
@@ -15,24 +14,24 @@ section{
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
+    max-height: 1000px;
     margin-top: 100px;
     background-color: white;
     padding: 15px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
-section h1 {
-    font-size: 20px;
-}
+
 div{
 
     border: 1px solid rgb(255, 255, 255);
-    background-color: #FFA5A5;
+    background-color: white;
     border-radius: 5px;
+    display: block;
 
 }
 h1{
-    text-align: center;
+
     padding: 4px;
     margin: 4px;
     display: block;
@@ -49,3 +48,42 @@ img{
     transform: translateY(-50%);
     border: 8px solid white;
 }
+p{
+    text-align: center;
+    position: center;
+    font-size: 15px;
+    width: 350px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#name{
+    font-size: 20px;
+    width: 200px;
+    display: block;
+    color: rgb(67, 67, 67);
+    padding: 35px;
+    padding-left: 120px;
+}
+#about{
+    color: rgb(67, 67, 67);
+    font-size: 18px;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    float: right;
+    padding: 0px;
+    margin-top: -62px;
+    padding-right: 145px;
+}
+.socialMedia{
+    width: 200px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(50%);
+} 
