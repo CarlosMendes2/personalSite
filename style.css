@@ -30,6 +30,12 @@ body{
     right: 445px;
     
 }
+img{
+    position: absolute;
+    margin-top: 62px;
+    margin-left: -124px;
+    width: 130px;
+}
 .about{
     color: white;
     display: inline-block;
