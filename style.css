@@ -1,184 +1,99 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: caviar dreams;
-    background-color: #23282d;
-    background-image: url(backmini3.png)
-    
-}
-.topo{
-    width: 100%;
-    height: 140px;
-    background-color: #23282d;
-    line-height: 140px;
-    background-image: url(backmini3.png)
-    
+    font-family: 'Source Code Pro', monospace;
+    background-color: #000000;
 }
 .top{
-    position: relative;
-    width: 80%;
-    height: 140px;
-    margin:auto;
-    background-color:transparent;
-    text-align: center;
-}
-.logo{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    font-size: 33pt;
-    right: 445px;
+    width: 100%;
+    height: 100px;
+    color: #5FE735;
+    border-bottom: 1px solid #5FE735;
+    background-color:#00340d ;
     
 }
-img{
-    position: absolute;
-    margin-top: 62px;
-    margin-left: -124px;
-    width: 130px;
+.icon{
+    line-height: 100px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    font-size: 20pt;
+}
+.icon:hover{
+    cursor: pointer;
+    color: #FBFFFE;
+    font-weight: bolder;
+}
+.name{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 22pt;
 }
 .about{
-    color: white;
+    width: 32%;
     display: inline-block;
-    position: absolute;
-    font-size: 20pt;
-    right: 0px;
+    text-align: right;
+    
 }
-nav{
-    margin: 0;
-    padding: 0;
-    width: 39%;
-    height: 500px;
-    background-color: transparent;
+h4{
+    color: #5FE735;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+}
+.menu{
+    width: 30%;
     float: left;
 }
-.btn1{
-    width:510px;
-    height:90px;
-    margin-top: 20px;
-    background-color:transparent;
-    display:inline-block;
-}
-.btnicon1{
-    width:18px;
-    height:90px;
-    background-color:#ffa630;
-    left:0px;
-}
-.web{
-    width:150px;
-    height: 90px;
-    line-height:90px;
-    margin-left: 40px;
-    color: #f4f3ee;
-    font-size: 20pt;
+.menu ul,.menu li{
+    margin:0;
+    padding:0;
     
-}
-
-.btn2{
-    width:510px;
-    height:90px;
-    margin-top: 20px;
-    background-color:transparent;
-    display:inline-block;
-    
-}
-.btnicon2{
-    width:18px;
-    height:90px;
-    background-color:#5bc0be;
-    left:0px;
-}
-.python{
-    width:150px;
-    height:90px;
-    line-height:90px;
-    margin-left: 40px;
-    color: #f4f3ee;
-    font-size: 20pt;
-    
-}
-
-.btn3{
-    width:510px;
-    height:90px;
-    margin-top: 20px;
-    background-color:transparent;
-    display:inline-block;
+    padding-bottom: 25px;
     }
-.btnicon3{
-    width:18px;
-    height:90px;
-    background-color:#aa9deb;
-    left:0px;
+.menu li{
+    color:#5FE735 ;
+    width: 70%;
+    list-style: none;
+    height:25px;
+    line-height:25px;
+    border-bottom:1px solid #48AC2F;
+    border-right:1px solid #48AC2F ;
+    padding-left: 10px;
+    padding-top: 25px;
     }
-.random{
-    width:150px;
-    height:90px;
-    line-height:90px;
-    margin-left: 40px;
-    color: #f4f3ee;
-    font-size: 20pt;
-    
+    li:hover{
+        cursor: pointer;
+        color: #FBFFFE;
+        background-color: #48AC2F;
+        font-weight: bold;
+        text-align: center;
+        width: 70%;
     }
-
-.btn4{
-    width:510px;
-    height:90px;
-    margin-top: 20px;
-    background-color:transparent;
-    display:inline-block;
-    }
-.btnicon4{
-    width:18px;
-    height:90px;
-    background-color:#e84855;
-    left:0px;
+#excessao{
+    border-top: 1px solid #5FE735;
+    margin-top: 0px;
 }
-.backend{
-    width:400px;
-    height:90px;
-    line-height:90px;
-    margin-left: 40px;
-    color: #f4f3ee;
-    font-size: 20pt;
+.principal{
     
-}
-.efm:hover{
-    cursor: pointer;
-}
-
-
-.spc{
-    margin-left: 25px;
-}
-
-
-
-
-
-section{
-    margin: 0;
-    padding: 0;
-    width: 61%;
-    height: 500px;
-    background-color: transparent;
-    float: right;
-    
-}
-.artc{
-    width: 320px;
-    height: 200px;
-    background-color: #a93d35;
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 60px;
-    color: #f4f3ee;
-    position: relative;
-}
-
-.foot{
-    width: 100%;
-    float:initial;
+    width: 65%;
+    float: left;
     color: white;
-    text-align: center;
+}
+article{
+    border: 1px solid #48AC2F;
+    margin-bottom: 20px;
+}
+article:hover{
+    cursor: pointer;
+    color: #FBFFFE;
+    background-color: #48AC2F;
+    font-weight: bold;
+    width: 99%;
 }
