@@ -1,99 +1,159 @@
+/*STRUCTURE */
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Source Code Pro', monospace;
-    background-color: #000000;
+    font-family: "Caviar Dreams", Arial, sans-serif;
+    color: #000000;
 }
-.top{
-    width: 100%;
-    height: 100px;
-    color: #5FE735;
-    border-bottom: 1px solid #5FE735;
-    background-color:#00340d ;
-    
+span{
+    color: #8a2be2 ;
 }
-.icon{
-    line-height: 100px;
-    display: inline-block;
+ul{
     margin: 0;
     padding: 0;
-    width: 33%;
-    font-size: 20pt;
 }
-.icon:hover{
-    cursor: pointer;
-    color: #FBFFFE;
-    font-weight: bolder;
-}
-.name{
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    width: 33%;
-    text-align: center;
-    font-size: 22pt;
-}
-.about{
-    width: 32%;
-    display: inline-block;
-    text-align: right;
-    
-}
-h4{
-    color: #5FE735;
-    line-height: 25px;
-    text-align: left;
-    width: 100%;
-    text-align: left;
-    font-weight: bolder;
-}
-.menu{
-    width: 30%;
+.left_side{
     float: left;
-}
-.menu ul,.menu li{
-    margin:0;
-    padding:0;
-    
-    padding-bottom: 25px;
-    }
-.menu li{
-    color:#5FE735 ;
-    width: 70%;
-    list-style: none;
-    height:25px;
-    line-height:25px;
-    border-bottom:1px solid #48AC2F;
-    border-right:1px solid #48AC2F ;
-    padding-left: 10px;
-    padding-top: 25px;
-    }
-    li:hover{
-        cursor: pointer;
-        color: #FBFFFE;
-        background-color: #48AC2F;
-        font-weight: bold;
-        text-align: center;
-        width: 70%;
-    }
-#excessao{
-    border-top: 1px solid #5FE735;
-    margin-top: 0px;
+    width: 25%;
+    height: 670px;
+    background-color: #f5f5f5;
 }
 .principal{
-    
-    width: 65%;
-    float: left;
-    color: white;
+    float: right;
+    width: 75%;
+    height: 670px;
+    background-color: #FFFFFF;
 }
-article{
-    border: 1px solid #48AC2F;
-    margin-bottom: 20px;
+
+/*LEFT*/
+.logo_name{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24pt;
+    margin-bottom: 100px;
 }
-article:hover{
+.logo_name:hover{
     cursor: pointer;
-    color: #FBFFFE;
-    background-color: #48AC2F;
-    font-weight: bold;
-    width: 99%;
+    color: #63E
+}
+.logo_name:hover span{
+    color: #23282d
+}
+
+.list_options{
+    text-align: center;
+    list-style: none;
+    font-size: 14pt;
+    font-weight: bolder;
+    color: #00000066;
+    margin-top: 50px;
+}
+.list_options li{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    padding-left: 0px;
+    padding-bottom: 13px;
+    line-height: 43px;
+}
+.list_options li:hover{
+    cursor: pointer;
+    color: #63E;
+}
+.languages div{
+    width: 20px;
+    height: 20px;
+    background-color: #63E;
+    color: white;
+    float: left;
+    margin: 10.5%;
+    display: none;
+}
+
+/* RIGHT*/
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 200px;
+    background-color: white;
+    color: white;
+    margin: auto;
+    margin-top: 8%;
+}
+.image img{
+    margin-top: 0px;
+}
+.content_principal{
+    width: 50%;
+    margin: auto;
+}
+h3{
+    color: #00000066;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #23282d;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+.content_principal article p {
+    text-align: center;
+    font-size: 15pt;
+}
+/* ICONS */
+.icon_cnt{
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    margin-top: 5%;
+}
+.normal_icons{
+    margin: auto;
+}
+.normal_icons div{
+    height: 50px;
+    width: 50px;
+    /*background-color: #63E;*/
+    padding-right: 5px;
+    list-style: none;
+    color: #63E;
+    float: left;
+    margin-left: 11%;
+    line-height: 50px;
+}
+.small_icons{
+    margin-top: 20px;
+}
+.small_icons div{
+    height: 20px;
+    width: 20px;
+    float: left;
+    list-style: none;
+    color: #63E;
+    /*background-color: #63E;*/
+    margin-left: 11%;
+    margin-top: 16px;
+}
+.normal_icons div:hover{
+    color: #63e;
+    /*background-color: #23282d;*/
+    font-weight: bolder;
+    cursor: pointer;
+}
+.small_icons div:hover{
+    color: #63e;
+    /*background-color: #23282d;*/
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.languages div:hover{
+    cursor: pointer;
 }
