@@ -3,12 +3,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Caviar Dreams", Arial, sans-serif;
-    color: #000000;
 }
 span{
     color: #8a2be2 ;
 }
-ul{
+ul,li{
     margin: 0;
     padding: 0;
 }
@@ -24,8 +23,7 @@ ul{
     height: 100vh;
     background-color: #FFFFFF;
 }
-
-/*LEFT*/
+/* ///LEFT\\\ */
 .logo_name{
     margin-top: 100px;
     text-align: center;
@@ -40,37 +38,22 @@ ul{
 .logo_name:hover span{
     color: #23282d
 }
-
 .list_options{
     text-align: center;
-    list-style: none;
     font-size: 14pt;
     font-weight: bolder;
     color: #00000066;
-    margin-top: 50px;
 }
 .list_options li{
-    margin: 0;
-    padding: 0;
     height: 30px;
-    padding-left: 0px;
+    line-height: 30px;
     padding-bottom: 13px;
-    line-height: 43px;
 }
 .list_options li:hover{
     cursor: pointer;
     color: #63E;
+    transition: 0.1s linear;
 }
-.languages div{
-    width: 20px;
-    height: 20px;
-    background-color: #63E;
-    color: white;
-    float: left;
-    margin: 10.5%;
-    display: none;
-}
-
 /* RIGHT*/
 .image{
     height: 200px;
@@ -107,53 +90,55 @@ h2{
     font-size: 15pt;
 }
 /* ICONS */
-.icon_cnt{
-    width: 50%;
-    margin: auto;
-    height: 50px;
-    margin-top: 5%;
-}
+/* ////////////////////////////////////////////////////////////////// */
 .normal_icons{
+    width: 50%;
+    height: 70px;
     margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.normal_icons div{
-    height: 50px;
+.normal_icons a img{
     width: 50px;
-    /*background-color: #63E;*/
-    padding-right: 5px;
-    list-style: none;
-    color: #63E;
-    float: left;
-    margin-left: 11%;
-    line-height: 50px;
+    height: 50px;
 }
 .small_icons{
-    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.small_icons div{
+.small_icons a img{
     height: 20px;
     width: 20px;
-    float: left;
-    list-style: none;
     color: #63E;
-    /*background-color: #63E;*/
-    margin-left: 11%;
-    margin-top: 16px;
 }
 .normal_icons div:hover{
     color: #63e;
-    /*background-color: #23282d;*/
-    font-weight: bolder;
     cursor: pointer;
 }
 .small_icons div:hover{
-    color: #63e;
-    /*background-color: #23282d;*/
-    font-weight: bolder;
     cursor: pointer;
 }
-
-
-.languages div:hover{
-    cursor: pointer;
+span::selection, p::selection,h1::selection,h2::selection,h3::selection,div::selection,li::selection{
+    background: #61e;
+    color: white;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+/*Responsive*/
+@media only screen and (min-width:500px)and (max-width:700px){
+    .principal{
+        background-color: #f5f5f5;
+    }
 }
