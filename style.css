@@ -114,10 +114,8 @@ h2{
 .small_icons a img{
     height: 20px;
     width: 20px;
-    color: #63E;
 }
 .normal_icons div:hover{
-    color: #63e;
     cursor: pointer;
 }
 .small_icons div:hover{
@@ -268,7 +266,6 @@ span::selection, p::selection,h1::selection,h2::selection,h3::selection,div::sel
     .small_icons a img{
         height: 20px;
         width: 20px;
-        color: #63E;
     }
 }
 
