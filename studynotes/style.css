@@ -58,6 +58,14 @@ h3:hover,h4:hover,h5:hover{
 h3:hover span, h4:hover span, h5:hover span{
     color: #232323;
 }
+.inProjects{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inProjects h4{
+    margin: auto;
+    padding-top: 20px;
+}
 .inProjects, .inIndex, .inLang, div p{
     width: 95%;
     margin: auto;
@@ -88,4 +96,21 @@ footer{
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+
+
+
+  /* Testes*/
+
+  .projectCard{
+      width: 160px;
+      height: 230px;
+      border-radius: 10px;
+      background-color: #f5f5f5;
+      text-align: center;
+  }
+  .projectCard:hover{
+      background-color: #f5f5f9;
   }
