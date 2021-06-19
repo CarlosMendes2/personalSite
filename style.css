@@ -11,6 +11,11 @@ ul,li{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: #00000066;
+}
+
 .left_side{
     float: left;
     width: 25%;
@@ -49,7 +54,7 @@ ul,li{
     line-height: 30px;
     padding-bottom: 13px;
 }
-.list_options li:hover{
+.list_options li:hover, li:hover a{
     cursor: pointer;
     color: #63E;
     transition: 0.1s linear;
@@ -268,7 +273,6 @@ span::selection, p::selection,h1::selection,h2::selection,h3::selection,div::sel
         width: 20px;
     }
 }
-
 
 
 
